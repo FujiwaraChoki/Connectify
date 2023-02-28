@@ -6,7 +6,7 @@ Connectify is a basic chat application made with Node.js and Socket.IO.
 
 1. Clone the repository: `git clone https://github.com/FujiwaraChoki/connectify.git`
 2. Install the dependencies: `npm install`
-3. Start the server: `node index.js`
+3. Start the server: `node server.js`
 4. Open a browser and navigate to [localhost:3000](http://localhost:3000)
 
 ## Usage
