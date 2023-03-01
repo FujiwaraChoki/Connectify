@@ -1,3 +1,5 @@
+document.requestStorageAccess();
+
 const socket = io('/');
 
 const messageForm = document.getElementById("message-form");
