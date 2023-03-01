@@ -6,8 +6,6 @@ const io = require("socket.io")(server);
 app.use(express.static(__dirname + "/public"));
 
 io.on("connection", (socket) => {
-  const sockets = io.sockets.sockets;
-  console.log(sockets);
   console.log("a user connected");
   socket.on("disconnect", () => {
     console.log("user disconnected");
